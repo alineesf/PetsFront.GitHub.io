@@ -1,0 +1,32 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;/*Espessura fonte*/
+    color: #fff;
+}
+.navbar-brand:hover {
+    color: #fff;
+}
+.container {
+    padding: 40px; /*Controla o espaço entre o conteúdo do elemento e sua borda interna.*/
+}
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #000000;/*Borda e espessura*/
+    border-radius: 30px; /*Controla o arredondamento dos cantos de um elemento*/
+    padding: 20px;
+    margin-bottom: 20px; /*Controla o espaço entre a parte inferior do elemento e o próximo elemento abaixo dele.*/
+    transition: transform 0.2s; /*Usada para criar animações suaves entre estados de um elemento quando ocorrem mudanças em suas propriedades.*/
+}
+.product-card:hover {
+    transform: translateY(-5px); /*Mover verticalmente um elemento HTML*/
+}
+.propaganda {
+background-color: #9f6cce;
+max-height: 400px;
+padding: 50px;
+text-align: center;
+color: #fff;
+}

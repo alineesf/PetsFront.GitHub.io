@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Pet's Care - Página inicial</title>
+    <!-- Link para o CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Estilos CSS personalizados -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+    <!-- Barra de Navegação -->
+<!--nav separa links de navegação e o div separa blocos dentro do site.-->
+    <nav class="navbar navbar-expand-lg">
+<!-- a classe navbar navbar-expand-lg é usada para criar uma barra de navegação estilizada usando as convenções e estilos do Bootstrap.-->
+        <div class="container">
+<!--criar um contêiner para ele ter as características específicas de formatação e layout associadas à classe container do Bootstrap. -->
+            <a class="navbar-brand" href="#"><img src="Pet.png" style="max-width:47%"  ></a>
+<!--A classe navbar-brand é específica do Bootstrap e é usada para estilizar o elemento âncora de forma que ele se comporte como um elemento de marca ou logotipo na barra de navegação.-->
+                    <li class="nav-item active"><!--O item "active" para indica a página atual ou seção atual.-->
+                        <a class="nav-link" href="file:///C:/Users/marim/OneDrive/Documentos/Front/produto.html"><h4>Produtos</h4></a> 
+                        <!--links de navegação.-->
+                    </li>
+                    <li class="nav-item"> <!-- "nav-item", que é usada para estilizar os itens da lista como itens de navegação.-->
+                        <a class="nav-link" href="file:///C:/Users/marim/OneDrive/Documentos/Front/Sobrenos.html"><h4>Sobre nós</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="file:///C:/Users/marim/OneDrive/Documentos/Front/contato.html"><h4>Contato</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="file:///C:/Users/marim/OneDrive/Documentos/Front/lojas.html"><h4>Lojas</h4></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<!-- Quadrado abaixo de body -->
+<!--"Quadrado" sugere que pode ser estilizado de forma a se parecer com um quadrado, mas o estilo exato dependerá do CSS-->
+<div class="quadrado"></div>
+
+<!-- Faixa de propaganda -->
+<div class="propaganda">
+<!--Usada para aplicar estilos específicos a esse elemento, como tamanho, posicionamento, cores e outros atributos visuais.-->
+    <h4>O Amor que Seu Pet Merece, os Produtos que Você Encontra Aqui!</h4><br>
+    <br>
+    <h5>Na Pet's, nós entendemos o quanto seu animal de estimação é especial. É por isso que oferecemos uma ampla variedade de produtos premium para atender a todas as necessidades do seu companheiro peludo. De alimentos nutritivos a brinquedos divertidos, de acessórios elegantes a cuidados de saúde de primeira qualidade, temos tudo para manter seu animal de estimação saudável, feliz e mimado.</h5>
+    <img src="patinha.png" alt="Propaganda" style="position: absolute; margin-top: -20px;">
+</div>
+
+    <!-- Destaques -->
+    <div class="container">
+<!--criar um contêiner para ele ter as características específicas de formatação e layout associadas à classe container do Bootstrap. -->
+    <h1 style="color: #330c5f;">Produtos em destaque!</h1><br>
+        <div class="row">
+<!--"row" é geralmente usada para agrupar colunas (elementos) em uma grade-->
+
+            <!-- Produto 1 -->
+            <div class="col-md-4">
+               <!-- "col": Indica que é uma coluna.
+                "md": Indica que essa coluna será usada em dispositivos de tamanho médio, como tablets.
+                "4": Indica que esta coluna ocupará 4 unidades-->
+                <div class="product-card">
+                    <img src="areiagato.jpg"alt="Produto 1" class="img-fluid">
+                    <h3>Areia Higiênica Biodegradável Vida Descomplicada Viva Verde 4 kg</h3>
+                    <p>-Fórmula eficiente;<br>
+                        -Indicado para gatos de todas as raças e tamanhos;<br>
+                        -Feita à base de milho e mandioca;<br>
+                        -Máxima eliminação do odor da urina;<br>
+                        -100% natural e biodegradável;<br>
+                        -Melhor rendimento e zero poeira;<br>
+                        -Torrão sólido instantâneo;<br>
+                        -Não contém produtos químicos ou fragrâncias, que irritam os gatos e tutores.</p>
+                    <p><strong>Preço: R$ 69,90</strong></p> <!--strong: Tornar o texto em negrito-->
+                    <button class="btn btn-primary">Comprar</button>
+                    <!--(bootstrap) btn: Essa classe aplica estilos básicos para tornar o botão visualmente agradável.
+                    btn-primary: Botões com a classe "btn-primary" têm uma cor de destaque-->
+                </div>
+            </div>
+            <!-- Produto 2 -->
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="sachegato.png" alt="Produto 2" class="img-fluid">
+                    <h3>Whiskas Sachê Carne ao Molho para Gatos Filhotes 85g</h3>
+                    <p> -Fonte de Cálcio;<br>
+                        - Contribui para crescimento saudável;<br>
+                        - Suculentos pedacinhos cozidos a vapor;<br>
+                        - Ajuda a manter a saúde do trato urinário;<br>
+                        - Porção ideal de proteína, vitaminas e sais minerais;<br>
+                        - Refeição completa e balanceada com alta absorção de nutrientes;<br>
+                        - Feito com ingredientes naturais de alta qualidade, vitaminas e minerais;<br>
+                        - Sem conservantes, sem corantes artificiais e sem aromatizantes artificiais.
+                        </p>
+                    <p><strong>Preço: R$ R$ 3,29</strong></p>
+                    <button class="btn btn-primary">Comprar</button>
+                </div>
+            </div>
+            <!-- Produto 3 -->
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="racaogato.jpeg" alt="Produto 3" class="img-fluid">
+                    <h3>Ração GranPlus Menu Gatos Filhotes Frango e Arroz 1kg</h3>
+                    <p>-Ideal para gatos filhotes;<br>
+                        -Auxilia na saúde intestinal;<br>
+                        -Contribui para o crescimento saudável;<br>
+                        -Favorece o trato urinário;<br>
+                        -Favorece a visão e o sistema nervoso.</p>
+                    <p><strong>Preço: R$ 27,90</strong></p>
+                    <button class="btn btn-primary">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
